@@ -1,0 +1,721 @@
+header {
+  height: 44px;
+  background-color: #fcfaff;
+  padding: 10px 0;
+}
+header .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .header_right {
+  display: flex;
+  align-items: center;
+}
+header .header_right img {
+  margin-right: 19px;
+}
+header .header_right img:nth-child(6) {
+  margin-right: 0;
+}
+header .header_right .select {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+header .header_right .select img {
+  margin: 0;
+}
+header .header_right .select img:nth-child(2) {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+nav {
+  background-color: #ffffff;
+  height: 88px;
+}
+nav .rowGrid .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav_right {
+  display: flex;
+  align-items: center;
+}
+nav .nav_right .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+  cursor: pointer;
+  margin-right: 46px;
+  text-decoration: none;
+}
+nav .nav_right .link:hover {
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+nav .nav_right button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 211px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #8102ff;
+  border-radius: 10px;
+  color: #8102ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.navigateCourse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 227px;
+}
+.navigateCourse .left {
+  width: 100%;
+}
+.navigateCourse .right {
+  width: 100%;
+}
+.navigateCourse .left .buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 47px;
+}
+.navigateCourse .left .buttons p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e6ccff;
+  border-radius: 30px;
+  margin-right: 14px;
+}
+.navigateCourse .left .buttons p:hover {
+  cursor: pointer;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  border: 1px solid #8102ff;
+}
+.navigateCourse .left .text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  color: #06011c;
+  width: 908px;
+  height: 171px;
+  margin-bottom: 55px;
+}
+.navigateCourse .left .oportunits {
+  margin-bottom: 70px;
+}
+.navigateCourse .left .oportunits div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.navigateCourse .left .oportunits div img {
+  margin-right: 13px;
+}
+.navigateCourse .left button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 263px;
+  height: 52px;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.video {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.video .text {
+  display: flex;
+  align-items: center;
+}
+.video h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #000000;
+}
+.video .vid {
+  background-image: url("../../assets/images/video_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 26px;
+  width: 1134px;
+  height: 533px;
+  margin-top: 27px;
+}
+.ourCurse {
+  height: 645px;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+
+  padding: 64px 0;
+  margin-bottom: 120px;
+}
+
+.ourCurse h1 {
+  height: 49px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: auto;
+  margin-bottom: 41px;
+}
+.ourCurse .vomi {
+  margin: auto;
+  margin-top: 49px;
+}
+.ourCurse .all .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourCurse .all {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 52px;
+}
+.ourCurse .all .about_course {
+  width: 668px;
+  height: 350px;
+  background: #fafafa;
+  border-radius: 24px;
+  padding: 46px 37px 0 50px;
+  position: relative;
+}
+.ourCurse .all .about_course .img1 {
+  bottom: 0;
+  right: 22px;
+  position: absolute;
+}
+.ourCurse .all .about_course .img2 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.ourCurse .all .about_course:nth-child(1) {
+}
+.ourCurse .all .about_course h4 {
+  width: 323px;
+  height: 34px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 22px;
+}
+.ourCurse .all .about_course p {
+  width: 333px;
+  height: 154px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+}
+.whyBella {
+  max-width: 1340px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 120px;
+}
+.whyBella .bacground {
+  position: absolute;
+  top: -2px;
+  z-index: -1;
+}
+.whyBella .all {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 60px;
+  margin-top: 140px;
+  margin-left: 90px;
+}
+.whyBella .all .corse_adults {
+  display: flex;
+  align-items: center;
+}
+.whyBella .all .corse_adults .left {
+  margin-right: 50px;
+}
+.whyBella .all .corse_adults h4 {
+  width: 323px;
+  height: 68px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+.whyBella .all .corse_adults p {
+  width: 384px;
+  height: 88px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+}
+.duringLesson {
+  width: 1340px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 120px;
+}
+.duringLesson h1 {
+  width: 468px;
+  height: 49px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #06011c;
+  margin: auto;
+  margin-bottom: 36px;
+}
+.duringLesson .btn {
+  display: flex;
+  align-items: flex-start;
+  padding: 4px;
+  width: 334px;
+  height: 53px;
+  background: #ffffff;
+  border-radius: 70px;
+  display: flex;
+  border: 1px solid #e9acfe;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.duringLesson .btn p {
+  display: flex;
+  margin-right: 33px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 158px;
+  height: 45px;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  border-radius: 40px;
+}
+.duringLesson .boys_img {
+  position: absolute;
+  top: 240px;
+  left: 67px;
+}
+.duringLesson .left {
+  position: absolute;
+  right: 0;
+  top: 410px;
+}
+.duringLesson .left .all_text {
+  display: flex;
+}
+.duringLesson .left .all_text .number h2 {
+  width: 76px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 90%;
+  text-align: center;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.duringLesson .left .all_text .text h4 {
+  width: 552px;
+  height: 34px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #06011c;
+  margin-bottom: 16px;
+}
+.duringLesson .left .all_text .text p {
+  width: 499px;
+  height: 88px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+  margin-bottom: 55px;
+}
+.duringLesson .buttom {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 120px;
+  grid-row-gap: 84px;
+  margin-top: 71px;
+}
+.duringLesson .buttom .all_text2 {
+  display: flex;
+}
+.duringLesson .buttom .all_text2 h2 {
+  width: 76px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 90%;
+  text-align: center;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.duringLesson .buttom .all_text2 h4 {
+  width: 552px;
+  height: 34px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #06011c;
+  margin-bottom: 20px;
+}
+.duringLesson .buttom .all_text2 p {
+  width: 499px;
+  height: 88px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+  margin-top: 20px;
+}
+.duringLesson .buttom .all_text2 .text2 .h4 {
+  margin-bottom: 60px;
+}
+
+.comments {
+  margin: auto;
+  margin-bottom: 120px;
+}
+.comments h1 {
+  height: 49px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #06011c;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.comments .comment {
+  background-image: url("../../assets/images/bac_com.png");
+  background-size: cover;
+  background-repeat: contain;
+  height: 413px;
+  width: 995px;
+  padding: 66px;
+  margin-left: 220px;
+  margin-bottom: 40px;
+}
+
+.comments .comment .text span {
+  width: 138px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 155%;
+  display: flex;
+  align-items: center;
+  color: #06011c;
+  margin: 15px 0;
+}
+.comments .comment .text .stars img {
+  height: 25px;
+  width: 27px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+.comments .comment .text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #06011c;
+}
+.comments .btn {
+  margin-left: 690px;
+}
+.comments .btn button {
+  width: 66px;
+  height: 66px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 17px;
+  background: #f5f5f5;
+}
+.freeLesson {
+  margin-bottom: 120px;
+}
+.freeLesson h1 {
+  height: 49px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.freeLesson .register {
+  width: 1340px;
+  height: 388px;
+  background: linear-gradient(83.61deg, #6602ff 1.23%, #bf00ff 103.01%);
+  border-radius: 24px;
+  margin: auto;
+  padding: 82px 78px 102px 82px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 175px;
+}
+.freeLesson .register .left h2 {
+  width: 514px;
+  height: 42px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.freeLesson .register .left ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  width: 274px;
+  height: 30px;
+  font-family: "Inter";
+  margin-bottom: 14px;
+}
+.freeLesson .register .right {
+  display: flex;
+  flex-direction: column;
+}
+.freeLesson .register .right .top_inp {
+  display: flex;
+  margin-bottom: 11px;
+}
+.freeLesson .register .right .top_inp .name_inp {
+  display: flex;
+  flex-direction: column;
+}
+.freeLesson .register .right .top_inp .name_inp span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.freeLesson .register .top_inp input {
+  width: 248px;
+  height: 30px;
+  background: #fafafa;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  margin-right: 22px;
+}
+.freeLesson .register .right .buttom {
+  display: flex;
+  flex-direction: column;
+}
+.freeLesson .register .right .buttom input {
+  width: 550px;
+  height: 30px;
+  background: #fafafa;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  margin-bottom: 30px;
+}
+.freeLesson .register .right .buttom button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 36px 14px;
+  width: 263px;
+  height: 52px;
+  background: #ff8100;
+  border-radius: 10px;
+  border: none;
+  margin-left: 315px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #ffffff;
+}
+.partniors {
+  margin-bottom: 120px;
+}
+.partniors .text {
+  width: 1340px;
+  margin: auto;
+}
+.partniors h1 {
+  width: 353px;
+  height: 57px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  color: #06011c;
+  margin-bottom: 11px;
+}
+.partniors p {
+  width: 881px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #999999;
+}
+.partniors .imgs {
+  margin-top: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  width: 1340px;
+  height: 440px;
+  background: #f5f5f5;
+  border-radius: 24px;
+  margin: auto;
+  margin-bottom: 62px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo {
+  margin-bottom: 30px;
+}
+footer .navigate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+footer .navigate .link {
+  width: 63px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+  margin-right: 83px;
+  text-decoration: none;
+}
+footer .navigate .link:nth-child(4) {
+  margin-right: 0px;
+}
+footer .social {
+  margin-bottom: 34px;
+}
+footer .social img {
+  margin-right: 43px;
+}
+footer .social img:nth-child(4) {
+  margin-right: 0px;
+}
+footer .par {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .par p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #06011c;
+  margin-bottom: 23px;
+}
+footer .disign {
+  display: flex;
+  align-items: center;
+}
+footer .disign span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #5c5e6b;
+}
+footer .disign img {
+  margin: 0 10px;
+}
